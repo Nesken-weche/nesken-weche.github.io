@@ -1,0 +1,229 @@
+body {
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-fixed {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+}
+.quote {
+    position: relative;
+    color: black;
+    border-radius: 20px;
+    block-size: 30px;
+    top: 400px;
+    left: 200px;
+    font-size: 25px;
+    font-family: -webkit-pictograph;
+    z-index: 0;
+    float: left;
+    font-style: italic;
+}
+.codepen {
+    position: relative;
+    border-radius: 20px;
+    box-sizing: 50px;
+    width: 200px;
+    height: 150px;
+}
+.github {
+    position: relative;
+    border-radius: 20px;
+    box-sizing: 50px;
+    width: 200px;
+    height: 150px;
+}
+.spaces {
+    height: 850px;
+}
+.spaces2 {
+    height: 250px;
+}
+/* .spaces3 {
+    height: 300px;
+} */
+.background {
+    height: 100vh;
+    width:  100%;
+    background: url('./pics/pexels-photo2.jpg') center no-repeat;
+    position: absolute; 
+    top: 0;
+    padding: 20px;
+}
+.background2 {
+    height: 100vh;
+    width:  100%;
+    background-color: black;
+    position: absolute; 
+    top: 0;
+    padding: 20px;
+}
+.row {
+    color: white;
+}
+.navbar2 {
+    position: relative;
+    top: 60px;
+    display: flex;
+    padding: .5rem 1rem;
+    height: 60px;
+    z-index: 1;
+} 
+h3 {
+    position: relative;
+}
+h6 {
+    position: relative;
+    top: 57px;
+    color: white;
+}
+.about-header {
+    position: relative;
+    top: 70px;
+    color: white;
+}
+p {
+    position: absolute;
+    color: white;
+} 
+.box1 {
+    position: relative;
+    border-radius: 0 35px;
+    height: 170px;
+    width: 500px;
+    box-sizing: border-box;
+    background-color: #616a9c;
+    padding: 15px;
+    top: 60px;
+    left: 150px;
+}
+.box2 {
+    position: relative;
+    border-radius: 0 35px;
+    height: 170px;
+    width: 500px;
+    margin: inherit;
+    left: 100px;
+    box-sizing: border-box;
+    background-color: #616a9c;
+    padding: 15px;
+    top: 50px;
+}
+
+.box3 {
+    position: relative;
+    border-radius: 0 35px;
+    height: 170px;
+    width: 500px;
+    box-sizing: border-box;
+    background-color: #616a9c;
+    padding: 15px;
+    top: 60px;
+    left: 150px;
+}
+nav {
+    background-color: #616a9c;
+    height: 60px; 
+    z-index: 1;
+}
+
+nav ul li {
+    float: right;
+    margin-top: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#brand {
+    float: left;
+}
+
+#brand2 {
+    float: left;
+    top: 18px;
+    position: relative;
+    
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.header {
+    margin-top: 20px !important;
+    position: relative;
+    bottom: 80px;
+}
+.wrapper {
+    margin: 0;
+    padding: 0;
+}
+.btn_wrapper {
+    text-align: center;
+    margin: 100px;
+    position: relative;
+    top: 400px;
+}
+.mine_btn {
+    color: black;
+
+}
+.btn-primary {
+    background-color: lavender;
+    border-color: white;
+}
+.btn-primary:hover {
+    color: black;
+    background-color: #616a9c;
+}
+.card1 {
+    position: relative;
+    top: 130px;
+    width: 400px;
+    left: 100px;
+    background-color: #616a9c;
+    border-radius: 35px 55px;
+}
+.card2 {
+    position: relative;
+    top: 308px;
+    right: 320px;
+    width: 400px;
+    left: 40px;
+    background-color: #616a9c;
+    border-radius: 35px 55px;
+}
+
+.card3 {
+    position: relative;
+    top: 130px;
+    width: 400px;
+    background-color: #616a9c;
+    border-radius: 35px 55px;
+}
+#about {
+    width: 1100px;
+    text-align: left;
+}
+#contact {
+    position: relative;
+    float: left;
+    left: 200px;
+}
+
+.message_paragraph {
+    width: 400px;
+    height: 200px;
+}
+.gadget {
+    position: relative;
+    float: left;
+    left: 600px;
+    bottom: 20px;
+}
