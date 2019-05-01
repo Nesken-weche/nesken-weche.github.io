@@ -48,7 +48,7 @@ body {
     height: 100vh;
     width:  100%;
     background: url('./pics/pexels-photo2.jpg') center no-repeat;
-    position: absolute; 
+    position: relative; 
     top: 0;
     padding: 20px;
 }
@@ -91,37 +91,36 @@ p {
 .box1 {
     position: relative;
     border-radius: 0 35px;
-    height: 170px;
-    width: 500px;
+    height: 200px;
+    width: 600px;
     box-sizing: border-box;
     background-color: #616a9c;
     padding: 15px;
-    top: 60px;
-    left: 150px;
+    top: 55px;
+    left: 100px;
 }
 .box2 {
     position: relative;
     border-radius: 0 35px;
-    height: 170px;
-    width: 500px;
+    height: 250px;
+    width: 600px;
     margin: inherit;
     left: 100px;
     box-sizing: border-box;
     background-color: #616a9c;
     padding: 15px;
-    top: 50px;
+    top: 15px;
 }
 
 .box3 {
     position: relative;
     border-radius: 0 35px;
     height: 170px;
-    width: 500px;
+    width: 650px;
     box-sizing: border-box;
     background-color: #616a9c;
-    padding: 15px;
-    top: 60px;
-    left: 150px;
+    padding: 15px;;
+    left: 80px;
 }
 nav {
     background-color: #616a9c;
@@ -185,8 +184,8 @@ nav ul li {
 .card1 {
     position: relative;
     top: 130px;
-    width: 400px;
-    left: 100px;
+    width: 300px;
+    left: 0px;
     background-color: #616a9c;
     border-radius: 35px 55px;
 }
